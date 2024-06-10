@@ -8,21 +8,34 @@ Local LLM plugin allows to load a large language model (LLM) of GGUF format and 
 
 ## Download packaged build
 
-You can download packaged build of this demo project from [here](https://taguchishouji-my.sharepoint.com/:u:/g/personal/kasa_taguchishouji_onmicrosoft_com/ESClVDJjABVLiLirpkfZtq8BWPnXzVzDzFgBdWiZQ4B5FQ?e=TNJBQW).
+You can download packaged build of this demo project from [Release](./release).
 
-## System Requirements
+## Software Requirements
 
 - Windows 64bit
 - Unreal Engine 5.4.2
 - Local LLM plugin v1.0 or above
 
-If you want to run with a GPU,
+(Optinal) if you want to run with a GPU,
 
 - CUDA: 12.2.0
 
+## Hardware Reauirements
+
+- A CPU that supports AVX, AVX2 and FMA.
+
+  The following CPUs should work.
+
+  - Intel: 4th Generation (Haswell) and above
+  - AMD: All Ryzen series
+
+(Optinal) if you want to run with a GPU,
+
+- A NVIDIA GPU that supports CUDA 12.2.0
+
 ## How to use this demo
 
-1. Clone this repo <!-- : `git clone git@github.com:Akiya-Research-Institute/WhisperRealtime-Demo.git` -->
+1. Clone this repo `git clone https://github.com/Akiya-Research-Institute/LocalLLM-Demo-UE5` -->
 2. Open `LocalLLM_Demo/LocalLLM_Demo.uproject`
 3. Click `Content Drawer > Add > Add Feature or Content Pack...` 
 4. Select `Third Person` on Blueprint tab and click `Add to Project`
@@ -34,9 +47,12 @@ If you want to run with a GPU,
 Demo project contains 2 maps.
 
 - /Content/LocalLLMDemo/Map/ChatDemo_One
-  Demonstration of conversation with one NPC
+
+  Demonstration of conversation with 1 NPC
 
 - /Content/LocalLLMDemo/Map/ChatDemo_Multi
-  Demonstration of conversation with two NPC
 
-When you reach to the characters, the dialogue UI automatically appears.
+  Demonstration of conversation with 2 NPCs
+
+When you get close to the characters, a dialog UI automatically appears.
+
