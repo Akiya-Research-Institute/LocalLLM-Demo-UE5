@@ -5,10 +5,11 @@ This is a UE5.4 project for demonstration of [Local LLM plugin](https://www.unre
 Local LLM plugin allows to load a large language model (LLM) of GGUF format and run it on Unreal Engine.
 
 <!-- [![Youtube demo](http://img.youtube.com/vi/mmMDhH0ueyI/0.jpg)](https://www.youtube.com/watch?v=mmMDhH0ueyI) -->
+![demo](https://github.com/Akiya-Research-Institute/LocalLLM-Demo-UE5/assets/89242761/73055101-19b8-4e32-9cbe-47b8e63def65)
 
 ## Download packaged build
 
-You can download packaged build of this demo project from [Release](./release).
+You can download packaged build of this demo project from Releases.
 
 ## Software Requirements
 
