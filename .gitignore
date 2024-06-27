@@ -80,3 +80,4 @@ DerivedDataCache/*
 /Content/LocalLLM/SavedState
 /Models
 /Content/LocalLLM/SavedStates
+Build/Windows/Application.ico
