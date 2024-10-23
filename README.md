@@ -1,6 +1,6 @@
 # UE5.4 demo project for Local LLM plugin
 
-This is a UE5.4 project for demonstration of [Local LLM plugin](https://www.unrealengine.com/marketplace/product/b349cc8c5ef840ac90cd08d0ee59a89d).
+This is a UE5.4 project for demonstration of [Local LLM plugin](https://vrlab.akiya-souken.co.jp/en/products/localllmplugin/).
 
 Local LLM plugin allows to load a large language model (LLM) of GGUF format and run it on Unreal Engine.
 
